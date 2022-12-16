@@ -7,7 +7,7 @@ theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
 baseURL = "https://resume.io"
-title = "LifeisGood"
+title = "Gabriel Rodriguez Resume"
 googleAnalytics = "Resume"
 
 [params]
