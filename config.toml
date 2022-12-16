@@ -6,7 +6,7 @@ enableEmoji = true
 theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
-baseURL = "https://resume.io"
+baseURL = "https://thagabe.github.io"
 title = "Gabriel Rodriguez Resume"
 googleAnalytics = "Resume"
 
