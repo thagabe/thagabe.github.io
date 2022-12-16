@@ -5,28 +5,29 @@ BasicInfo:
   Photo: img/2.jpg
   Contacts:
     - Icon: fas fa-phone
-      Info: (650) 245-4175
+      Info: (650) 507-9596
     - Icon: fas fa-envelope
       Info: g.rodri95@gmail.com
     - Icon: fas fa-globe
       Info: www.linkedin.com/in/grodri95/
     - Icon: fas fa-map-marker-alt
-      Info: CA, USA
+      Info: Foster City, CA
 
-Profile: "Junior Web Developer with 2 years of experience. Open source enthusiast with
-7 years of contributions and unit testing. "
+Profile: "Passionate and resourceful software developer with an eye towards future technologies and design principles. Active contributor to Open-Source projects from embedded devices to server deployments. "
 
 Experience:
   - Employer: Sonic.net
     Place: Santa Rosa, CA
     Positions:
-      - Title: Field Service Technician 1
-        Date: Jun 2021 - Present
+      - Title: Field Service Technician
+        Date: Jun 2021 - Sept 2022
         Details:
-          - Providing service and customer support during field visits, tying workflow to schedule, managing site installation and repair tasks, diagnosing errors and technical problems, documenting processes, and successful customer experience.
-          - Professional installs that meet or exceed customer's request.
-          - Successful activation of business customer by supporting their convoluted equipment.
-          - Assigned jobs designated to "experienced techs"
+        - Providing service and customer support during field visits
+        - Managing site installation and repair tasks
+        - Diagnosing errors and technical problems
+        - Document processes and maintain records
+        - Professional deployment of fiber infrastructure
+
         Badges: ['Networking', 'TCP/IP', 'Fiber', 'Oracle']
   - Employer: Golden Gate Financial
     Place: San Mateo, CA
@@ -53,28 +54,7 @@ Education:
   - Course: As Computer Science
     Place: De Anza Community College
     Date: Sep 2015 - Jun 2019
-    Details: Completed core CS classes specializing in C++
-
-References:
-  - Name: Alfonso Ortega
-    Relation: Co-worker at Sonic.net
-    Contacts:
-    - Icon: fas fa-phone
-      Info: (808) xxx-xxxx
-    - Icon: fas fa-envelope
-      Info: alfonso.ortega@sonic.com
-    - Icon: fas fa-map-marker-alt
-      Info: Santa Rosa, CA
-  - Name: Soledad 
-    Relation: Client at Feeling Good Daycare
-    Contacts:
-    - Icon: fas fa-phone
-      Info: (650) 483-5583
-    - Icon: fas fa-envelope
-      Info: feelinggooddaycare@gmail.com
-    - Icon: fas fa-map-marker-alt
-      Info: San Mateo, CA
-
+    Details: Completed core classes such as JAVA, C++, Unix, Physics, and Math.
 
 Skills:
   - Family: Programming
@@ -112,9 +92,9 @@ Languages:
     Level: Native
 
 Interests:
-  - Bouldering
-  - Cooking
-  - Windsurfing
-  - Bossa Nova
-  - Design
-  - Languages
+  - Building PCs
+  - BBQ-ing
+  - Traveling
+  - Graphic Design
+  - Cars
+  - The Office
