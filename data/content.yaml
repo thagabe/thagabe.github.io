@@ -11,11 +11,24 @@ BasicInfo:
     - Icon: fas fa-globe
       Info: www.linkedin.com/in/grodri95/
     - Icon: fas fa-map-marker-alt
-      Info: Foster City, CA
+      Info: San Mateo, CA
 
-Profile: "Passionate and resourceful software developer with an eye towards future technologies and design principles. Active contributor to Open-Source projects from embedded devices to server deployments. "
+Profile: "I have expertise in optimizing system performance and supporting users through efficient troubleshooting, automation, and streamlined workflows. Skilled in CI/CD, cloud platforms, infrastructure management, and implementing solutions that enhance collaboration, speed, and reliability. Additionally, I excel in providing technical support, resolving issues, and ensuring smooth IT operations."
 
 Experience:
+  - Employer: Kinetix LLC
+    Place: San Mateo, CA
+    Positions:
+      - Title: Embedded Responsive Support
+        Date: Mar 2023 - Present
+        Details:
+        - Successfully completed Storage Block Migration one month ahead of schedule, achieving cost savings of over $20,000 in API egress data charges.
+        - Identified and Implemented of USDM Part 11 Auditing addition for Biotech GxP data 
+        - Reduced attack surface and safeguarded against phishing threats.
+        - Revamped network rack infrastructure and implemented redundancy for improved reliability and performance.
+        - Led the procurement and configuration of a High-Performance Liquid Chromatography (HPLC) system, enhancing data collection and accessibility for scientists.
+
+        Badges: ['Optimization', 'Box', 'Egnyte', 'GxP']
   - Employer: Sonic.net
     Place: Santa Rosa, CA
     Positions:
@@ -29,17 +42,6 @@ Experience:
         - Professional deployment of fiber infrastructure
 
         Badges: ['Networking', 'TCP/IP', 'Fiber', 'Oracle']
-  - Employer: Golden Gate Financial
-    Place: San Mateo, CA
-    Positions:
-      - Title: Administrative Assistant
-        Date: Apr 2017 - Jan 2020
-        Details:
-           - Provided general administrative and clerical support including, but not limited to, mailing, scanning, faxing and copying to management.
-           - Improved and optimized the initiative to digitize existing paperwork to improve record keeping.
-           - De facto tech support specialist for the office
-           - Created a sub-network separated from the internet when the hardware firewall malfunctioned so the office could share files and print while the Network Engineers focused on replacing the failed device.
-        Badges: ['CRM', 'TCP/IP', 'Database', 'FINTECH']
   - Employer: Feeling Good Daycare
     Place: San Mateo, CA
     Positions:
@@ -51,7 +53,7 @@ Experience:
         Badges: ['HTML', 'CSS', 'Javascript', 'PHP', 'Linux', 'Bootstrap']
 
 Education:
-  - Course: AS Computer Science
+  - Course: As Computer Science
     Place: De Anza Community College
     Date: Sep 2015 - Jun 2019
     Details: Completed core classes such as JAVA, C++, Unix, Physics, and Math.
