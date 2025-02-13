@@ -1,6 +1,5 @@
 BasicInfo:
   FirstName: Gabriel
-  MiddleName: A.
   LastName: Rodriguez
   Photo: img/2.jpg
   Contacts:
@@ -16,23 +15,22 @@ BasicInfo:
 Profile: "I have expertise in optimizing system performance and supporting users through efficient troubleshooting, automation, and streamlined workflows. Skilled in CI/CD, cloud platforms, infrastructure management, and implementing solutions that enhance collaboration, speed, and reliability. Additionally, I excel in providing technical support, resolving issues, and ensuring smooth IT operations."
 
 Experience:
-  - Employer: Kinetix LLC
+  - Employer: Kinetix Technology Services, LLC
     Place: San Mateo, CA
     Positions:
-      - Title: Embedded Responsive Support
+      - Title: Responsive Embedded Support Engineer
         Date: Mar 2023 - Present
         Details:
-        - Successfully completed Storage Block Migration one month ahead of schedule, achieving cost savings of over $20,000 in API egress data charges.
-        - Identified and Implemented of USDM Part 11 Auditing addition for Biotech GxP data 
-        - Reduced attack surface and safeguarded against phishing threats.
-        - Revamped network rack infrastructure and implemented redundancy for improved reliability and performance.
-        - Led the procurement and configuration of a High-Performance Liquid Chromatography (HPLC) system, enhancing data collection and accessibility for scientists.
-
-        Badges: ['Optimization', 'Box', 'Egnyte', 'GxP']
+        - Successfully completed Storage Block Migration one month ahead of schedule, achieving cost savings of over $20,000 in API egress data charges
+        - Identified and implemented USDM Part 11 Auditing addition for GxP data on cloud storage service
+        - Led the procurement and configuration of a High-Performance Liquid Chromatography (HPLC) system, enhancing data collection and accessibility for remote users
+        - Revamped network rack infrastructure and implemented redundancy for improved reliability and performance
+        - Reduced attack surface and safeguarded against phishing threats
+        Badges: ['Meraki', 'Box', 'Egnyte', 'GxP', 'Microsoft AD', 'Onelogin', 'Mimecast', 'SSO']
   - Employer: Sonic.net
     Place: Santa Rosa, CA
     Positions:
-      - Title: Field Service Technician
+      - Title: Technical Field Specialist
         Date: Jun 2021 - Sept 2022
         Details:
         - Providing service and customer support during field visits
@@ -41,22 +39,24 @@ Experience:
         - Document processes and maintain records
         - Professional deployment of fiber infrastructure
 
-        Badges: ['Networking', 'TCP/IP', 'Fiber', 'Oracle']
+        Badges: ['Networking', 'TCP/IP', 'Fiber', 'Oracle', 'Jupyter']
   - Employer: Feeling Good Daycare
     Place: San Mateo, CA
     Positions:
-      - Title: Freelance Web-Developer
-        Date: May 2015 - Apr 2017
+      - Title: Full-Stack Web Developer 
+        Date: May 2015 - Apr 2020
         Details:
-           - Develop and maintain client websites through a mix use of DevOPS tools. Websites used JavaScript, PHP, HTML, CSS, and JQUERY. Used cloud computing to host websites using the LAMP stack and deployed a mail server.
-           - Developed website with forward-thinking technologies which tripled the requests for the business Feeling Good Daycare.
+           - Developed and deployed a responsive website for Feeling Good Daycare using HTML, CSS, JavaScript, PHP, and Bootstrap, hosted on a Linux VM via DigitalOcean
+           - Implemented Exim mail server for automated communication, increasing business opportunities
+           - Optimized SEO and user experience, increasing business traffic by 400% and driving higher revenue within months
+           - Ensured website security, reliability, and performance through regular updates, backups, and server maintenance
         Badges: ['HTML', 'CSS', 'Javascript', 'PHP', 'Linux', 'Bootstrap']
 
 Education:
-  - Course: As Computer Science
-    Place: De Anza Community College
-    Date: Sep 2015 - Jun 2019
-    Details: Completed core classes such as JAVA, C++, Unix, Physics, and Math.
+  - Course: Computer Science
+    Place: De Anza College
+    Date: 2019
+    Details: 'Relevant Coursework: Web Development, Database Management, Networking'
 
 Skills:
   - Family: Programming
