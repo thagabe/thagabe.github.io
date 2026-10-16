@@ -8,3 +8,7 @@
 .settings/
 *.subliime-workspace
 *.sublime-project
+
+# Deployment output and private resume planning notes
+_site/
+AGENT.md

@@ -1,32 +1,52 @@
-name: github pages
+name: Deploy static resume to GitHub Pages
 
 on:
   push:
-    branches:
-      - main  # Set a branch that will trigger a deployment
+    branches: [main]
   pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  deploy:
-    runs-on: ubuntu-22.04
+  validate:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Check out source
+        uses: actions/checkout@v6
+      - name: Check static site files
+        run: |
+          test -s index.html
+          test -s styles.css
+          test -f .nojekyll
+          grep -q 'href="styles.css"' index.html
+          grep -q '@media print' styles.css
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          # extended: true
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+      # Publish an explicit file list to exclude notes, Git metadata, and documentation from the site.
+      - name: Prepare public files
+        run: |
+          mkdir _site
+          cp index.html styles.css .nojekyll _site/
+      # Retain the existing gh-pages publishing source; skip Hugo and Jekyll.
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_branch: gh-pages
+          publish_dir: ./_site
+          enable_jekyll: false
